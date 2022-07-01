@@ -2,7 +2,7 @@ import { openDB } from "idb";
 
 // create indexdb database
 const initdb = async () =>
-  //create database named jate, using version 1 of jate database
+  //create database named jate, use version 1 of jate database
   openDB("jate", 1, {
     upgrade(db) {
       if (db.objectStoreNames.contains("jate")) {
