@@ -54,7 +54,7 @@ registerRoute(
   })
 );
 
-// TODO: Implement asset caching
+// Asset caching
 registerRoute(
   ({ request }) => request.destination === "image",
   new CacheFirst({
