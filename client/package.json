@@ -2,7 +2,7 @@
   "name": "j_a_t_e",
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack --mode production",
+    "build": "webpack --mode --omit=dev",
     "start": "webpack --watch && webpack serve"
   },
   "serve": {
