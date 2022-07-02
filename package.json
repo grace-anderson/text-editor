@@ -11,7 +11,10 @@
     "server:prod": "cd ./server && node server.js",
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd .. && cd client && npm i",
-    "client": "cd client && npm run dev"
+    "client": "cd client && npm run dev",
+    "lint": "npx eslint \"**/*.js\"",
+    "prettier-check": "npx prettier --check .",
+    "prettier-write": "npx prettier --write ."
   },
   "keywords": [],
   "author": "Helen Anderson",
@@ -22,16 +25,21 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.18"
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.18",
+    "prettier": "^2.6.2"
   },
   "comments": {
-    "intro": "These comments explain the scripts in this package.json file. Make sure to run 'npm install' in the root before running these commands, as 'npm install' install prerequisites required by these scripts (e.g. 'start:dev' requires 'concurrently' and 'nodemon').",
+    "intro": "These comments explain the scripts in this package.json file. Make sure to run 'npm install' in the root before running these commands, as 'npm install' install prerequisites required by these scripts (e.g. 'start:dev' requires 'concurrently' and 'nodemon'). Also, make sure you're in the root when running scripts",
     "start:dev": "'npm run start:dev' - Using one single command runs two scripts. The first script runs the server and second command runs the client.",
     "start:prod": "'npm run start:prod' - Runs the production server.",
     "server:dev": "'npm run server:dev' - Runs the development server.",
     "server:prod": "'npm run server:prod' - Runs the production server.",
     "build": "'npm run build' - Runs the build script in the client folder.",
     "install": "'npm run install' - Runs the install script in the server and client folders.",
-    "client": "'npm run client' - Runs the client build script."
+    "client": "'npm run client' - Runs the client build script.",
+    "lint": "'npm run lint' - Runs the lint script",
+    "prettier-check": "'npm run prettier-check' - Runs the prettier check script."
   }
 }

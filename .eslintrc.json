@@ -1,19 +1,16 @@
 {
+  "root": true,
   "env": {
     "browser": true,
     "commonjs": true,
     "node": true,
     "es6": true
   },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
   "rules": {
-    // Override our default settings just for this directory
-    "const": "off",
-    "eqeqeq": "warn",
-    "strict": "off",
-    "import/no-extraneous-dependencies": "off",
-    "import/prefer-default-export": "off",
-    "no-underscore-dangle": "off",
-    "no-restricted-globals": "off",
     "no-duplicate-case": "error",
     "no-empty": "error",
     "no-extra-semi": "error",
@@ -22,6 +19,7 @@
     "no-unreachable": "error",
     "curly": "error",
     "dot-notation": "error",
+    "eqeqeq": "error",
     "no-empty-function": "error",
     "no-multi-spaces": "error",
     "no-mixed-spaces-and-tabs": "error",
