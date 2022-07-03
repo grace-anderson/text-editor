@@ -29,40 +29,41 @@ The app is deployed to [Heroku](https://mighty-inlet-78059.herokuapp.com/), with
 This application uses the following technologies:
 
 **Dependencies**
-* [code-mirror-themes](https://www.npmjs.com/package/code-mirror-themes),
-* [express.js](https://www.npmjs.com/package/express),
-* [idb](https://www.npmjs.com/package/idb),
-* [if-env](https://www.npmjs.com/package/if-env),
+* [code-mirror-themes](https://www.npmjs.com/package/code-mirror-themes)
+* [express.js](https://www.npmjs.com/package/express)
+* [idb](https://www.npmjs.com/package/idb)
+* [if-env](https://www.npmjs.com/package/if-env)
 * [node.js](https://nodejs.dev/)
 
 **Dev dependencies**
-* [@babel/core](https://www.npmjs.com/package/@babel/core),
+* [@babel/core](https://www.npmjs.com/package/@babel/core)
 * [@babel/plugin-transform-runtime](https://www.npmjs.com/package/@babel/plugin-transform-runtime),
-* [@babel/preset-env](https://www.npmjs.com/package/@babel/preset-env),
-* [@babel/runtime](https://www.npmjs.com/package/@babel/runtime),
-* [babel-loader](https://www.npmjs.com/package/babel-loader),
-* [concurrently](https://www.npmjs.com/package/concurrently),
-* [css-loader](https://www.npmjs.com/package/css-loader),
-* [eslint](https://www.npmjs.com/package/eslint),
-* [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier),
-* [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin),
-* [http-server](https://www.npmjs.com/package/http-server),
-* [nodemon](https://www.npmjs.com/package/nodemon),
-* [prettier](https://www.npmjs.com/package/prettier),
-* [style-loader](https://www.npmjs.com/package/style-loader),
-* [webpack](https://www.npmjs.com/package/webpack),
-* [webpack-cli](https://www.npmjs.com/package/webpack-cli),
-* [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server),
-* [webpack-pwa-manifest](https://www.npmjs.com/package/webpack-pwa-manifest),
+* [@babel/preset-env](https://www.npmjs.com/package/@babel/preset-env)
+* [@babel/runtime](https://www.npmjs.com/package/@babel/runtime)
+* [babel-loader](https://www.npmjs.com/package/babel-loader)
+* [concurrently](https://www.npmjs.com/package/concurrently)
+* [css-loader](https://www.npmjs.com/package/css-loader)
+* [eslint](https://www.npmjs.com/package/eslint)
+* [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+* [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin)
+* [http-server](https://www.npmjs.com/package/http-server)
+* [nodemon](https://www.npmjs.com/package/nodemon)
+* [prettier](https://www.npmjs.com/package/prettier)
+* [style-loader](https://www.npmjs.com/package/style-loader)
+* [webpack](https://www.npmjs.com/package/webpack)
+* [webpack-cli](https://www.npmjs.com/package/webpack-cli)
+* [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server)
+* [webpack-pwa-manifest](https://www.npmjs.com/package/webpack-pwa-manifest)
 * [workbox-webpack-plugin](https://www.npmjs.com/package/workbox-webpack-plugin)
 
 **Deployment**
 * [Heroku](https://www.heroku.com/)
+* [Deployed app](https://mighty-inlet-78059.herokuapp.com/)
 
 ## Usage
 
-* Access **Just Another Text Editor app** via its [Heroku](https://mighty-inlet-78059.herokuapp.com/)
-* See the [Demo](#demo) screenshots and gifs for more detail about using the app.
+* Access **Just Another Text Editor app** via its [Heroku url](https://mighty-inlet-78059.herokuapp.com/)
+* See [Demo](#demo) for more detail about using the app.
 
 ## Functionality
 
@@ -75,12 +76,12 @@ This application uses the following technologies:
 ## Installation
 To install and run the **Just Another Text Editor** application code locally,
 * Download or clone the code from the [GitHub repository](https://github.com/grace-anderson/text-editor)
-  * run ``npm run install`` in the root directory of the project to install all dependencies
+  * run ``npm run install`` in the root directory of the project to install  dependencies
   * run ``npm run build`` in the root directory of the project to build the application
   * run ``npm run start`` from the root directory to start the server
   * navigate to your browser, and open the app locally with url ``localhost:3000``
 * See the comments in the package.json file for more detail about the scripts to install, build and run the application
-* See the [Demo](#demo) section below for gifs and screenshots of the application
+* See the [Demo](#demo) section below for more detail about using the app 
 
 
 ## Contribution Guidelines
@@ -100,6 +101,29 @@ To install and run the **Just Another Text Editor** application code locally,
 ## Demo
 
 TODO - add demo
+1. **Just Another Text Editor (JATE)** opened in the browser at deployed [Heroku url](https://mighty-inlet-78059.herokuapp.com/)
+
+![Demonstration of JATE being used in the browser.](./assets/1-screenshot.png)
+
+2. JATE being installed locally, showing manifest window and shortcut.
+
+![Demonstration of JATE being installed locally.](./assets/2-gif.gif)
+
+3. Demo of JATE retaining data when switching between on and offline
+
+![Demonstration of JATE retaining data when switching between online and offline](./assets/3-gif.gif)
+
+4. Screenshot of indexDB showing data retained when app offline 
+
+![Demonstration of JATE indexDB database retaining data when data entered online and offline](./assets/4-screenshot.png)
+
+5. Screenshot of JATE's app manifest window
+
+![Screenshot of JATE's manifest](./assets/5-screenshot.png)
+
+6. Screenshot of JATE's service workers window
+
+![Screenshot of JATE's service workers](./assets/6-screenshot.png)
 
 ## License
 
