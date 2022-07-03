@@ -40,6 +40,7 @@
     "install": "'npm run install' - Runs the install script in the server and client folders.",
     "client": "'npm run client' - Runs the client build script.",
     "lint": "'npm run lint' - Runs the lint script",
-    "prettier-check": "'npm run prettier-check' - Runs the prettier check script."
+    "prettier-check": "'npm run prettier-check' - Runs the prettier check script.",
+    "prettier-write": "'npm run prettier-write' - Runs the prettier write script."
   }
 }
